@@ -25,14 +25,14 @@ server.js manages the server side of socket.io (recieves the messages each clien
 
 # CLIENT
 
-`client/src/index.js`
+* `client/src/index.js`
 our game config file with the basics to set up Phaser
-`client/src/assets`
+* `client/src/assets`
 contains all of our public image files
-`client/src/helpers`
+* `client/src/helpers`
 contains all of our helper contructor Classes
 _ CARD creates new cards
 _ DEALER handles deck and card management
-\_ ZONE creates our drop zones
-`client/src/scenes`
+_ ZONE creates our drop zones
+* `client/src/scenes`
 contains our 'scenes' or gameviews. Right now, there is only one game.js

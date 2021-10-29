@@ -19,11 +19,11 @@ after all the dependencies are installed, 'npm start' to get your client running
 
 ## The Basics included in the Template:
 
-# SERVER-SIDE
+#### SERVER-SIDE
 
 server.js manages the server side of socket.io (recieves the messages each client emits then emits messages back)
 
-# CLIENT
+#### CLIENT
 
 * `client/src/index.js`
 our game config file with the basics to set up Phaser

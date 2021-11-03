@@ -45,9 +45,7 @@ export default class Game extends Phaser.Scene {
 
         //Drop Zone:
         scene.zone = new Zone(scene);
-        scene.dropZone = scene.zone.renderZone();
-        scene.outline = scene.zone.renderOutline(scene.dropZone);
-
+        scene.dropZone = scene.zone.renderZone(700, 375, 900, 250);
 
 
         //DEAL TEXT & Logic:
